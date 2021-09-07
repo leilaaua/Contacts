@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		72426E2026E7BC39004112AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72426E1F26E7BC39004112AF /* AppDelegate.swift */; };
 		72426E2226E7BC39004112AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72426E2126E7BC39004112AF /* SceneDelegate.swift */; };
-		72426E2426E7BC39004112AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72426E2326E7BC39004112AF /* ViewController.swift */; };
 		72426E2726E7BC39004112AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72426E2526E7BC39004112AF /* Main.storyboard */; };
 		72426E2926E7BC48004112AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72426E2826E7BC48004112AF /* Assets.xcassets */; };
 		72426E2C26E7BC48004112AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72426E2A26E7BC48004112AF /* LaunchScreen.storyboard */; };
+		72426E3426E7CF2B004112AF /* PersonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72426E3326E7CF2A004112AF /* PersonsListViewController.swift */; };
+		72426E3626E7D104004112AF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72426E3526E7D104004112AF /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		72426E1C26E7BC39004112AF /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72426E1F26E7BC39004112AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72426E2126E7BC39004112AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		72426E2326E7BC39004112AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		72426E2626E7BC39004112AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72426E2826E7BC48004112AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72426E2B26E7BC48004112AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72426E2D26E7BC48004112AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72426E3326E7CF2A004112AF /* PersonsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListViewController.swift; sourceTree = "<group>"; };
+		72426E3526E7D104004112AF /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				72426E1F26E7BC39004112AF /* AppDelegate.swift */,
 				72426E2126E7BC39004112AF /* SceneDelegate.swift */,
-				72426E2326E7BC39004112AF /* ViewController.swift */,
 				72426E2526E7BC39004112AF /* Main.storyboard */,
+				72426E3326E7CF2A004112AF /* PersonsListViewController.swift */,
+				72426E3526E7D104004112AF /* Person.swift */,
 				72426E2826E7BC48004112AF /* Assets.xcassets */,
 				72426E2A26E7BC48004112AF /* LaunchScreen.storyboard */,
 				72426E2D26E7BC48004112AF /* Info.plist */,
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72426E2426E7BC39004112AF /* ViewController.swift in Sources */,
 				72426E2026E7BC39004112AF /* AppDelegate.swift in Sources */,
 				72426E2226E7BC39004112AF /* SceneDelegate.swift in Sources */,
+				72426E3626E7D104004112AF /* Person.swift in Sources */,
+				72426E3426E7CF2B004112AF /* PersonsListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

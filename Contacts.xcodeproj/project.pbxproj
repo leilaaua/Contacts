@@ -14,6 +14,10 @@
 		72426E2C26E7BC48004112AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72426E2A26E7BC48004112AF /* LaunchScreen.storyboard */; };
 		72426E3426E7CF2B004112AF /* PersonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72426E3326E7CF2A004112AF /* PersonsListViewController.swift */; };
 		72426E3626E7D104004112AF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72426E3526E7D104004112AF /* Person.swift */; };
+		724ADC6826E89D8400A09CEE /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724ADC6726E89D8400A09CEE /* ContactsViewController.swift */; };
+		724ADC6B26E8BC4600A09CEE /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724ADC6A26E8BC4600A09CEE /* Manager.swift */; };
+		727673B627038BD000738627 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727673B527038BD000738627 /* TabBarViewController.swift */; };
+		727673B82703AAC800738627 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727673B72703AAC800738627 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		72426E2D26E7BC48004112AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72426E3326E7CF2A004112AF /* PersonsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListViewController.swift; sourceTree = "<group>"; };
 		72426E3526E7D104004112AF /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		724ADC6726E89D8400A09CEE /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		724ADC6A26E8BC4600A09CEE /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		727673B527038BD000738627 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		727673B72703AAC800738627 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +69,33 @@
 				72426E1F26E7BC39004112AF /* AppDelegate.swift */,
 				72426E2126E7BC39004112AF /* SceneDelegate.swift */,
 				72426E2526E7BC39004112AF /* Main.storyboard */,
-				72426E3326E7CF2A004112AF /* PersonsListViewController.swift */,
+				724ADC6926E89E0B00A09CEE /* ViewControllers */,
 				72426E3526E7D104004112AF /* Person.swift */,
+				724ADC6C26E8BC5B00A09CEE /* Services */,
 				72426E2826E7BC48004112AF /* Assets.xcassets */,
 				72426E2A26E7BC48004112AF /* LaunchScreen.storyboard */,
 				72426E2D26E7BC48004112AF /* Info.plist */,
 			);
 			path = Contacts;
+			sourceTree = "<group>";
+		};
+		724ADC6926E89E0B00A09CEE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				724ADC6726E89D8400A09CEE /* ContactsViewController.swift */,
+				72426E3326E7CF2A004112AF /* PersonsListViewController.swift */,
+				727673B527038BD000738627 /* TabBarViewController.swift */,
+				727673B72703AAC800738627 /* DetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		724ADC6C26E8BC5B00A09CEE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				724ADC6A26E8BC4600A09CEE /* Manager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +169,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				72426E2026E7BC39004112AF /* AppDelegate.swift in Sources */,
+				724ADC6B26E8BC4600A09CEE /* Manager.swift in Sources */,
 				72426E2226E7BC39004112AF /* SceneDelegate.swift in Sources */,
+				727673B82703AAC800738627 /* DetailsViewController.swift in Sources */,
 				72426E3626E7D104004112AF /* Person.swift in Sources */,
+				727673B627038BD000738627 /* TabBarViewController.swift in Sources */,
 				72426E3426E7CF2B004112AF /* PersonsListViewController.swift in Sources */,
+				724ADC6826E89D8400A09CEE /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
